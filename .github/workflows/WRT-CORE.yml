@@ -143,10 +143,10 @@ define Build/Compile
 endef
 
 define Package/luci-app-homer/install
- $(INSTALL_DIR) $(1)/usr/lib/lua/luci/controller
- $(INSTALL_DATA) ./luasrc/controller/homer.lua $(1)/usr/lib/lua/luci/controller/
- $(INSTALL_DIR) $(1)/usr/lib/lua/luci/view
- $(INSTALL_DATA) ./luasrc/view/homer.htm $(1)/usr/lib/lua/luci/view/
+   $(INSTALL_DIR) $(1)/usr/lib/lua/luci/controller
+   $(INSTALL_DATA) ./luasrc/controller/homer.lua $(1)/usr/lib/lua/luci/controller/
+   $(INSTALL_DIR) $(1)/usr/lib/lua/luci/view
+   $(INSTALL_DATA) ./luasrc/view/homer.htm $(1)/usr/lib/lua/luci/view/
 endef
 
 $(eval $(call BuildPackage,luci-app-homer))
