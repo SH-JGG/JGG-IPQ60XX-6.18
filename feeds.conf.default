@@ -4,5 +4,5 @@ src-git luci https://git.openwrt.org/project/luci.git
 src-git routing https://git.openwrt.org/feed/routing.git
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git kenzo https://github.com/kenzok8/openwrt-packages
-#src-git small https://github.com/kenzok8/small
+src-git small https://github.com/kenzok8/small
 src-git mypackages https://github.com/JGG-SH/openwrt-my-packages.git
